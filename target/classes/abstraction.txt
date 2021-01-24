@@ -1,0 +1,19 @@
+Contains data about abstraction.
+Data Abstraction is the property by virtue of which only the essential details are displayed to the user.
+It can also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details
+
+Why do we use interface ?
+
+- It is used to achieve total abstraction.
+- Since java does not support multiple inheritance in case of class, but by using interface it can achieve multiple inheritance .
+- It is also used to achieve loose coupling.
+- Interfaces are used to implement abstraction. Even we have abstract classes still we use interface to achieve data abstraction because abstract classes may contain non-final variables, whereas variables in interface are final, public and static.
+
+To implement an interface we use keyword: implements
+
+Few keypoints about abstract classes:
+- In Java, an instance of an abstract class cannot be created, we can have references of abstract class type though
+- An abstract class can contain constructors in Java. And a constructor of abstract class is called when an instance of a inherited class is created.
+-  In Java, we can have an abstract class without any abstract method. This allows us to create classes that cannot be instantiated, but can only be inherited.
+- Abstract classes can also have final methods (methods that cannot be overridden). 
+- For any abstract java class we are not allowed to create an object i.e., for abstract class instantiation is not possible.
